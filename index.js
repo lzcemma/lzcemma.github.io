@@ -43,8 +43,9 @@ function loadImages () {
       for (var key in data) {
         if (data[key].x === j && data[key].y === i) {
           htmlText += '<td>';// style="background-image:url(img/' + data[key].imgSmall + ');">';
-          htmlText += '<div id="image"><span class="helper"></span><div class="label_background"><p class="label">' + (data[key].title).replace(/-/g, ' ')  + '</p></div><img src=img/' + data[key].imgSmall + '></div>';
+          htmlText += '<div id="image'+data[key].id+'"><span class="helper"></span><div class="label_background"><p class="label">' + (data[key].title).replace(/-/g, ' ')  + '</p></div><img src=img/' + data[key].imgSmall + '></div>';
           isPopulated = true;
+          htmlText += '<div id="myModal'+data[key].id+'" class="modal"><div class="modal-content"><span id="close' + data[key].id +'" class="close">&times;</span><p>'+ (data[key].desc).replace(/-/g, ' ') +'/p></div></div>'
         }
       }
 
@@ -58,6 +59,7 @@ function loadImages () {
   htmlText += '</table>';
   div.innerHTML = htmlText;
   document.getElementById('content').appendChild(div);
+
 }
 
 function scrollToMiddle () {
@@ -66,3 +68,60 @@ function scrollToMiddle () {
 
 loadImages();
 scrollToMiddle();
+
+var modalArray = new Array();
+var imageArray = new Array();
+var closeArray = new Array();
+for( i = 0; i < 2;i++){
+  console.log(i);
+  var modalName = "myModal" + i.toString();
+  var imageName = "image" + i.toString();
+  var closeName = "close" + i.toString();
+  var modal = document.getElementById(modalName);
+  var image = document.getElementById(imageName);
+  var close =  document.getElementById(closeName);
+  modalArray.push(modal);
+  imageArray.push(image);
+  closeArray.push(close);
+}
+
+console.log(modalArray);
+console.log(imageArray);
+console.log(closeArray);
+
+imageArray[0].onclick = function(){
+  console.log("onclick0");
+  modalArray[0].style.display = "block";
+}
+imageArray[1].onclick = function(){
+  console.log("onclick1");
+  modalArray[1].style.display = "block";
+}
+
+closeArray[0].onclick = function(){
+    modalArray[0].style.display = "none";
+}
+closeArray[1].onclick = function(){
+    modalArray[1].style.display = "none";
+}
+
+
+//   imageArray[i].onclick = function(){
+//     console.log(i);
+//     console.log(imageArray[i]);
+//     console.log("on click");
+//     console.log(modal);
+//     console.log(modalArray);
+//     console.log(modalArray[0]);
+//     console.log(typeof i);
+//     console.log(modalArray[i]);
+//     modalArray[0].style.display = "block";
+//   }
+//
+//
+//   close.onclick = function(){
+//     modal.style.display = "none";
+//   }
+//
+//
+// }
