@@ -11,7 +11,7 @@ data = [
   },
   {
     "id": "1",
-    "x": 1,
+    "x": -1,
     "y": 0,
     "imgSmall": "rx02-small.jpg",
     "imgLarge": "rx01-large.jpg",
@@ -20,7 +20,7 @@ data = [
     "seq": 1
   },
   { "id": "2",
-    "x": 2,
+    "x": 1,
     "y": 0,
     "imgSmall": "rx03-small.jpg",
     "imgLarge": "rx01-large.jpg",
@@ -29,8 +29,8 @@ data = [
     "seq": 1
   },
   { "id": "3",
-    "x": 3,
-    "y": 0,
+    "x": 1,
+    "y": 1,
     "imgSmall": "rx04-small.jpg",
     "imgLarge": "rx01-large.jpg",
     "title": "Anti-Japanes Propaganda",
@@ -38,8 +38,8 @@ data = [
     "seq": 1
   },
   { "id": "4",
-    "x": 4,
-    "y": 0,
+    "x": 2,
+    "y": 1,
     "imgSmall": "rx05-small.jpg",
     "imgLarge": "rx01-large.jpg",
     "title": "Mao Zedong",
@@ -47,8 +47,8 @@ data = [
     "seq": 1
   },
   { "id": "5",
-    "x": 5,
-    "y": 0,
+    "x": -1,
+    "y": -1,
     "imgSmall": "rx06-small.jpg",
     "imgLarge": "rx01-large.jpg",
     "title": "Bruce Lee",
