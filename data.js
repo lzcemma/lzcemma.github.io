@@ -6,7 +6,7 @@ data = [
     "imgSmall": "rx01-small.jpg",
     "imgLarge": "rx01-large.jpg",
     "title": "Shanghai Street View in 1900s",
-    "desc":"description of shang hai street view",
+    "desc":"Shanghai in the 1920s was a city filled with western modernization and often considered as the birthplace of cosmopolitanism in China. Shanghai was often known as “the Oriental Paris”. Introduction of western modernity brought many changes in the cityscapes of Shanghai and consequently, the lifestyles of those who live in it. Since Shanghai was a treaty port of territories split and divided between the International Settlement, French Concession, and the Native Chinese sectors. Shanghai had buildings in which the appearance and function resembled those of London or New York. The city was filled with different cultures. Shanghai was a huge metropolitan city in the East filled with western infrastructures including banks, street, electricity, street lights, trams, telephone, and running water. The nightlife of night clubs and hotel rooms thrived along with many other changes in lifestyles. If it still doesn’t impress you, imagine the city life from the Great Gatsby in Asia. \n Relationship with adjacent pictures: With influx of western modernization and rapid changes, Shanghai became the stage of newly emerging popular cultures. From love stories in a fiction to the new music, Shanghai became the hub and center of cultural products",
     "seq": 1
   },
   {
@@ -15,8 +15,54 @@ data = [
     "y": 0,
     "imgSmall": "rx02-small.jpg",
     "imgLarge": "rx01-large.jpg",
-    "title": "Hongkong Street View in 1900s",
-    "desc": "description of hongkong street view",
+    "title": "Hong Kong Action Film",
+    "desc": "When people think about Chinese film, the horrible movie with Matt Damon where soldiers fight with aliens on top of the Great Wall will come to mind. However, even before the Hollywood and the Chinese film companies started working together, Chinese or more specifically, Hong Kong films were often considered as unique and innovative and influenced many countries’ cinema around the world. Hong Kong’s action film is unique in its storytelling and cinematography. Unlike its counterparts from Hollywood, the actions are much more vivid, straightforward, longer, and explicit. The films do not use much editing, jump-cuts that distract the audience from action or present pseudo-action by conveying the story and leaving the imagination to work on how each action would end up. Imagine all those great stunts by Jackie Chan but eliminate his iconic comic nature from the films and insert Martin Scorsese in the story. Many of action films from Hong Kong were remade or adapted not only in other East Asian cinema but also in Hollywood films as well.Relationship with adjacent pictures: Some of the iconic figures of Hong Kong films include Bruce Lee and Chow Yun-Fat. Works Cited:Bordwell, David. “Aesthetics in Action: Kungfu, Gunplay, and Cinematic Expressivity.” At Full Speed: Hong Kong Cinema in a Borderless World, by Ching-Mei Esther. Yau, University of Minnesota Press, 2003, pp. 73–93.",
     "seq": 1
-  }
+  },
+  { "id": "2",
+    "x": 2,
+    "y": 0,
+    "imgSmall": "rx03-small.jpg",
+    "imgLarge": "rx01-large.jpg",
+    "title": "Feng Zikai's cartoon",
+    "desc": "Feng Zikai is considered as one of the pioneers of the Chinese cartoons. Cartoon is often forgotten and comparatively considered less frequently when exploring Chinese popular culture. However, looking into Feng Zikai’s cartoons and philosophy often gives insight to the history of China, religious and national perspective on the foreign invasions as well as swiftly changing politics and culture during his time. Feng Zikai’s cartoon is unique that his cartoon modestly remained unchanged in its theme and association with Buddhist values during the times of Sino-Japanese war when many of the artists used their works as war propaganda. Instead of explicit demonization of the enemy or using sexual images of the Chinese victim to evoke nationalism and unity among the readers, Feng Zikai approaches war in different aspect by showing what people are fighting for, how cruel and violent it is, and that there is a glimpse of hope waiting at the end of despair.Works Cited: Chang-tai Hung, “War and Peace in Feng Zikai’s Wartime Cartoons,” Modern China, 16:1 (January 1990), 39-83. ",
+    "seq": 1
+  },
+  { "id": "3",
+    "x": 3,
+    "y": 0,
+    "imgSmall": "rx04-small.jpg",
+    "imgLarge": "rx01-large.jpg",
+    "title": "Anti-Japanes Propaganda",
+    "desc": "The picture of Anti-Japanese Propaganda is an example of war propaganda that existed in many different forms during Sino-Japanese war. However, it is incredibly notable of how many of those propaganda uses female sexuality and its vulnerability and victimization from Japanese army were most widely use to boost and evoke nationalism and morale along with the spirit of resistance. Relationship with adjacent pictures: The Anti-Japanese propaganda from the picture and others contrast with the works of Feng Zikai, yet, both of them ultimately served same political function from similar point in time. Works Cited: Louis Edwards, “Drawing Sexual Violence in Wartime China: Anti-Japanese Propaganda Cartoons,” Journal of Asian Studies, 72:3 (2013), 563-586. ",
+    "seq": 1
+  },
+  { "id": "4",
+    "x": 4,
+    "y": 0,
+    "imgSmall": "rx05-small.jpg",
+    "imgLarge": "rx01-large.jpg",
+    "title": "Mao Zedong",
+    "desc": "As a political leader and the individual who once had the greatest power over the mainland China, Mao Zedong also had great influence to the Chinese popular culture. His first explicit attempt on influencing the popular culture is visible from his talks at Yanan forum about literatures and art. In the forum, Mao is giving the guidance to the artists and his people that the art and literature should be made for the peasants, directing them as the audience and main targets. The art and literature should also be coming from the peasants encouraging to construct certain Chinese art legacy. At the end, Mao reiterates that the popular culture of China should be “mass culture” serving its revolutionary purposes. Relationship with adjacent pictures: The rapid swift in different forms of popular culture being used as political propaganda like Anti-Japanese comics or even to promote communism can be all described as the consequence of Mao’s words. Works Cited: Mao Zedong, “Talks at Yan’an Forum on Literature and Art,” in Modern Chinese Literary Thought: Writings on Literature, 1893-1945, ed. Kirk Denton, chapter 54. ",
+    "seq": 1
+  },
+  { "id": "5",
+    "x": 5,
+    "y": 0,
+    "imgSmall": "rx06-small.jpg",
+    "imgLarge": "rx01-large.jpg",
+    "title": "Bruce Lee",
+    "desc": "People often consider Bruce Lee as the iconic Kung Fu action star from China. However, the influence and legacy of Bruce Lee in Chinese popular culture as well as other Asian popular culture is beyond of his successes in films. Bruce Lee was not only an actor, but an activist, a philosopher, and an idol. Bruce Lee was China. His actions, fames, and popularity brought pride and joy to not only the people of China but the people of Asia. His storytelling against foreign invasion evoked proud nationalism amongst his audience without any attachment to certain political ideology. His legacy still remains firm through the other action stars like Bruce Lee, Jet Lee, and others. Relationship with adjacent pictures: Bruce Lee is Hong Kong’s most iconic figure. Works Cited:“The Rise of Kung Fu, from Wong Fei-Hung to Bruce Lee.” Chinese Martial Arts Cinema, by Stephen Teo, Edinburgh Univ. Press, 2009, pp. 58–85.",
+    "seq": 1
+  },
+  { "id": "6",
+    "x": 0,
+    "y": 1,
+    "imgSmall": "rx07-small.jpg",
+    "imgLarge": "rx01-large.jpg",
+    "title": "Li Jinhui",
+    "desc": "Li Jinhui is the father of Chinese popular music, in modern Chinese popular music. Li Jinhui is credited for incorporating the western music of jazz and Chinese traditional folk tunes. However revolutionary, Li Jinhui’s new music genre was considered as pornographic, hence the title of “yellow music” because its divergence from nationalism and focus on love stories. Yet, his work symbolizes the beginning of new popular culture in China where western modernization combines with Chinese traditions and sentiments. Relationship with adjacent pictures: The title of yellow music and Mao’s talk.  Works Cited: “The Yellow Music of Li Jinhui.” Yellow Music: Media Culture and Colonial Modernity in the Chinese Jazz Age, by Andrew F. Jones, Duke University Press, 2006, pp. 74–104.",
+    "seq": 1
+  },
+
 ]

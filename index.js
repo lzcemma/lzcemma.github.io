@@ -72,7 +72,7 @@ scrollToMiddle();
 var modalArray = new Array();
 var imageArray = new Array();
 var closeArray = new Array();
-for( i = 0; i < 2;i++){
+for( i = 0; i < 7;i++){
   console.log(i);
   var modalName = "myModal" + i.toString();
   var imageName = "image" + i.toString();
@@ -97,12 +97,48 @@ imageArray[1].onclick = function(){
   console.log("onclick1");
   modalArray[1].style.display = "block";
 }
+imageArray[2].onclick = function(){
+  console.log("onclick0");
+  modalArray[2].style.display = "block";
+}
+imageArray[3].onclick = function(){
+  console.log("onclick1");
+  modalArray[3].style.display = "block";
+}
+imageArray[4].onclick = function(){
+  console.log("onclick0");
+  modalArray[4].style.display = "block";
+}
+imageArray[5].onclick = function(){
+  console.log("onclick1");
+  modalArray[5].style.display = "block";
+}
+imageArray[6].onclick = function(){
+  console.log("onclick0");
+  modalArray[6].style.display = "block";
+}
+
 
 closeArray[0].onclick = function(){
     modalArray[0].style.display = "none";
 }
 closeArray[1].onclick = function(){
     modalArray[1].style.display = "none";
+}
+closeArray[2].onclick = function(){
+    modalArray[2].style.display = "none";
+}
+closeArray[3].onclick = function(){
+    modalArray[3].style.display = "none";
+}
+closeArray[4].onclick = function(){
+    modalArray[4].style.display = "none";
+}
+closeArray[5].onclick = function(){
+    modalArray[5].style.display = "none";
+}
+closeArray[6].onclick = function(){
+    modalArray[6].style.display = "none";
 }
 
 
