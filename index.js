@@ -45,7 +45,7 @@ function loadImages () {
           htmlText += '<td>';// style="background-image:url(img/' + data[key].imgSmall + ');">';
           htmlText += '<div id="image'+data[key].id+'"><span class="helper"></span><div class="label_background"><p class="label">' + (data[key].title).replace(/-/g, ' ')  + '</p></div><img src=img/' + data[key].imgSmall + '></div>';
           isPopulated = true;
-          htmlText += '<div id="myModal'+data[key].id+'" class="modal"><div class="modal-content"><span id="close' + data[key].id +'" class="close">&times;</span><p>'+ (data[key].desc).replace(/-/g, ' ') +'/p></div></div>'
+          htmlText += '<div id="myModal'+data[key].id+'" class="modal"><div class="modal-content"><span id="close' + data[key].id +'" class="close">&times;</span><p align="left">'+ (data[key].desc).replace(/-/g, ' ') +'</div></div>'
         }
       }
 
