@@ -35,8 +35,8 @@ data = [
     "seq": 1
   },
   { "id": "3",
-    "x": 1,
-    "y": 1,
+    "x": 2,
+    "y": 0,
     "imgSmall": "rx04-small.jpg",
     "imgLarge": "rx01-large.jpg",
     "title": "Anti-Japanes Propaganda",
